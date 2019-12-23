@@ -1,0 +1,19 @@
+{
+    "ReRoutes": [
+        {
+            "DownstreamPathTemplate": "/api/currencies",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 7001
+                    }
+                ],
+            "UpstreamPathTemplate": "/catalogapi/currencies",
+            "UpstreamHttpMethod": [ "GET" ]
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:7000"
+    }
+}
