@@ -1,1 +1,1 @@
-# Demo Gatewa with ocelot
+# Demo Gateway with ocelot
